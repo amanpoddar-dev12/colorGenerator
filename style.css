@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #8f78e9;
+}
+#Main-Box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  width: 400px;
+  border-radius: 7px;
+  height: 500px;
+}
+#gradient-box {
+  margin-top: -100px;
+  height: 200px;
+  background: linear-gradient(to Left Top, #5563e2, #a271f8);
+  width: 350px;
+  border-radius: 7px;
+}
+#direction-box {
+  position: absolute;
+  margin-right: 200px;
+  margin-bottom: -90px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#Color {
+  position: absolute;
+  margin-right: -100px;
+  margin-bottom: -100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.row {
+  position: absolute;
+  margin-bottom: -200px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+#Refresh-Btn {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 200px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#Copy-Btn {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: -200px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: #7f6ec0;
+}
+#textarea {
+  font-size: 20px;
+  position: absolute;
+  margin-left: -150px;
+  margin-top: -10px;
+  width: 300px;
+  height: 100px;
+}

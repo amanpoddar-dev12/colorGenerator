@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- [if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif] -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Color Generator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div id="Main-Box">
+      <div id="box">
+        <div id="gradient-box"></div>
+        <div id="direction-box">
+          <p id="Heading-1">Direction</p>
+          <select id="select">
+            <option>Left Top</option>
+            <option>Right Top</option>
+            <option>Top</option>
+            <option>Bottom left</option>
+            <option>Bottom</option>
+            <option>Bottom Right</option>
+            <option>Left</option>
+            <option>Right</option>
+          </select>
+        </div>
+        <div id="Color">
+          <p id="Heading-2">Color</p>
+          <input type="color" value="#5665E9" class="colorButton" />
+          <input type="color" value="#A271F8" class="colorButton" />
+        </div>
+        <div class="row">
+          <textarea id="textarea">
+linear-gradient(to Left Top, #5563e2, #a271f8);</textarea
+          >
+        </div>
+        <div class="btn">
+          <button type="submit" id="Refresh-Btn">Refresh</button>
+          <button type="submit" id="Copy-Btn">Copy Code</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js" async defer></script>
+  </body>
+</html>
